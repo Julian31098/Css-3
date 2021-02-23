@@ -1,0 +1,317 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Technology -BBC News</title>
+    <style type="text/css">
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Helvetica, Arial, freesans, sans-serif;
+            /*Tipos de letras y formatos*/
+        }
+
+        #topbar {
+            width: 1100px;
+            height: 40px;
+            background-color: #FFFFFF;
+            margin: 0 auto;
+
+        }
+
+        #logo {
+            margin-top: 8px;
+            margin-right: 8px;
+            width: 84px;
+            height: 24px;
+            float: left;
+
+        }
+
+        .topbar-section {
+            float: left;
+            border-left: 1px solid #CCCCCC;
+            height: 100%;
+        }
+
+        #sign-in-imagen {
+            width: 25px;
+            height: 24px;
+            margin: 8px 6px;
+            float: left;
+
+        }
+
+        #signin-texto {
+            font-weight: "bold";
+            font-size: 85%;
+            float: left;
+            position: relative;
+            top: 14px;
+            padding-right: 60px;
+            /*Separación de 50 px*/
+        }
+
+        .topbar-menu {
+            font-weight: bold;
+            padding: 13px 15px 0 15px;
+            height: 27px;
+        }
+
+        #more-arrow {
+            width: 23px;
+            height: 22px;
+            float: right;
+            margin-left: 20px;
+            padding-bottom: 12px;
+        }
+
+        #search-box {
+            background-color: #CCCCCC;
+            border: none;
+            /*Quitar el borde*/
+            font-weight: bold;
+            font-size: 14px;
+            float: left;
+            width: 80px;
+            margin: 5px 0px 5px 5px;
+            padding: 5px;
+        }
+
+        #lupa {
+            width: 24px;
+            margin-top: 10px;
+
+        }
+
+        .clear {
+            clear: both;
+        }
+
+        #menu-bar-container {
+            background-color: #BB1919;
+            width: 100%;
+            height: 70px;
+            border-top: 1px solid #CCCCCC;
+        }
+
+        #menu-bar {
+            width: 1100px;
+            margin: 0 auto;
+        }
+
+        #menu-bar-container-2 {
+            background-color: #a91717;
+            width: 100%;
+            height: 40px;
+            border-top: 1px solid #CCCCCC;
+        }
+
+        #menu-bar-2 {
+            width: 1100px;
+            margin: 0 auto;
+        }
+
+        #menu-bar-2 a {
+            color: #FFFFFF;
+            text-decoration: none;
+            font-size: 14px;
+            border-right: 1px solid #B84545;
+            position: relative;
+            top: 10px;
+            padding: 0 10px;
+        }
+
+        #menu-bar-2 a:hover {
+            text-decoration: underline;
+        }
+
+        h1 {
+            color: #FFFFFF;
+            margin: 0;
+            padding: 0;
+            font-size: 40px;
+            font-weight: 300;
+            padding-top: 10px;
+        }
+
+        #more-arrow-2 {
+            width: 18px;
+            height: 18px;
+            margin-left: 5px;
+            position: relative;
+            top: 5px;
+
+        }
+
+        #page-container {
+            margin: 0 auto;
+            width: 1100px;
+        }
+
+        h2 {
+            font-weight: normal;
+            font-size: 20px;
+            border-bottom: 3px solid #BB1919;
+            width: 105px;
+        }
+
+        h3 a {
+            color: black;
+            font-size: 35px;
+            text-decoration: none;
+            /*Quitar el subrayado*/
+        }
+
+        /*Estilo cuando se selecciona el enlace*/
+        h3 a:hover {
+            color: #1167a8;
+        }
+
+        #article-container{
+         float:left;
+         width: 680px;
+         border-right: 1px solid #CCCCCC;
+         padding-right: 20px;
+            
+        }
+        #article-summary {
+            color: #5a5a5a;
+            width: 240px;
+            float: left;
+        }
+
+        #article-summary img {
+            height: 18px;
+            width: 20px;
+            position: relative;
+            top: 3px;
+            padding-right: 4px;
+        }
+
+        #topic-link{
+            text-decoration: none;
+            color: #a91717;
+            border-left: solid 1px #CCCCCC;
+            padding-left: 10px;
+
+        }
+
+        #article-summary a:hover {
+            color: #1167ab;
+            ;
+        }
+
+        #date {
+            padding-right: 10px;
+            font-size: 14px;
+        }
+   
+        #main-article-image{
+           width:400px;
+           height:200px;
+           margin-left: 20px;
+        }
+        #article-hr{
+            border-top: 1px solid #991717;
+            width: 50px;
+        
+        }
+        .article-link{
+         color:black ;
+         text-decoration: none; 
+         font-size: 14px;
+        }
+        
+    </style>
+</head>
+
+<body>
+    <div id=topbar>
+        <img id="logo" src="imagenes/logo.PNG" alt="">
+
+        <div id="sign-in" class="topbar-section">
+            <img id="sign-in-imagen" src="imagenes/sing-in.png" alt="">
+            <span id="signin-texto">Sing in</span>
+        </div>
+        <div class="topbar-section topbar-menu">
+            News
+        </div>
+        <div class="topbar-section topbar-menu">
+            Sport
+        </div>
+        <div class="topbar-section topbar-menu">
+            Weather
+        </div>
+        <div class="topbar-section topbar-menu">
+            Shop
+        </div>
+        <div class="topbar-section topbar-menu">
+            Earth
+        </div>
+        <div class="topbar-section topbar-menu">
+            Travel
+        </div>
+        <div class="topbar-section topbar-menu">
+            Capital
+        </div>
+        <div class="topbar-section topbar-menu">
+            More
+            <img id="more-arrow" src="imagenes/flecha.png" alt="">
+        </div>
+        <div class="topbar-section">
+            <input type="text" id="search-box" value="Search"><!-- input de tipo Caja de texto-->
+            <input type="image" id="lupa" src="imagenes/lupa.png">
+        </div>
+    </div>
+
+    <div id="menu-bar-container">
+        <div id="menu-bar">
+            <h1>News</h1>
+        </div>
+    </div>
+    <div id="menu-bar-container-2">
+        <div id="menu-bar-2">
+            <a href="">Home</a>
+            <a href="">Video</a>
+            <a href="">World</a>
+            <a href="">UK</a>
+            <a href="">Business</a>
+            <a href="">Tech</a>
+            <a href="">Science</a>
+            <a href="">Magazine</a>
+            <a href="">Entertaiment & Arts</a>
+            <a href="">Healh</a>
+            <a href="">World News</a>
+            <a href="">More
+                <img id="more-arrow-2" src="imagenes/flecha.png" alt="">
+            </a>
+        </div>
+    </div>
+    <div clase="clear"></div>
+    <div id="page-container">
+        <div id="main-article">
+            <h2>Technology</h2>
+            <div id="article-container">
+                <h3><a href="">San Bernardino hack 'cost FBI over $1m'</a></h3>
+                <div id="article-summary">
+                    <p>The figure paid by the FBI to unnamed experts to unlock the phone
+                        of the San Bernardino killer has been estimated at $1.3m or more.</p>
+                    <p>
+                        <img src="imagenes/reloj.jpg" alt="">
+                        <span id="date">22 april 2016</span><a id="topic-link"href="">Technology</a>
+         
+                    </p>
+                    <hr id="article-hr" align="left"><!--Linea horizontal-->
+                  <p><a class="article-link" href="">Apple v the FBI - in plain English</a></p>    
+                  <p><a class="article-link" href="">Apple's FBI row is only just beginning</a></p>
+
+                </div>
+                <img id="main-article-image" src="imagenes/Noticia.jpg" alt="">
+                </div>                  
+        </div>
+    </div>
+</body>
+
+</html>
