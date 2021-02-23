@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thenology -BBC News</title>
+    <style type="text/Css">
+    
+        #topbar{
+        
+        width: 1000px;
+        margin: 0 auto;/*Para centrar el elemento*/
+        background-color:#FFFFFF;/*darle color al elemento*/
+        height: 40px;/*altura*/
+        
+    }
+    /*quitar espacios y margenes*/
+    body{
+        margin:0;
+        padding:0;
+        font-family: Arial, Helvetica, freesans, sans-serif;
+    }
+    #logo{
+        margin-top: 5px;
+        width: 86px;
+        height:30px ;
+        float: left;
+        margin-right:8px;
+    }
+    .topbar-setion{
+        float: left;
+        border-left: 1px gray solid;
+        height: 100%;
+    }
+    #sg{
+     margin:10px 6px;
+     width: 20px;
+     float: left;
+    }
+    #sign-in-texto{
+    font-weight:bold;/*negrilla*/
+     font-size:85%;/*tamaño de la letra*/
+     position:relative;
+     top: 10px;
+     padding-right: 60px;
+    }
+    .topbar-menu
+    {
+        font-weight: bold;
+        font-size: 85%;
+        padding: 13px 15px 0 15px;
+        height: 27px;
+    }
+    #more-flecha{
+     float:right;
+     margin-left: 20px;
+ 
+    }
+    #search-box{
+        background:#EEEEEE;
+        border: none;
+        font-size: 15px;
+        width: 100px;
+        margin: 10px 0px 5px 5px;
+        float: left;
+    }
+
+    
+    </style>
+</head>
+<body>
+    <div id="topbar">
+    <img id="logo"src="BBC-Logo.png">
+    <div id="sign-in" class="topbar-setion">
+     <img id="sg" src="imagensg.PNG">
+     <span id="sign-in-texto"> Sign-in</span>
+    </div>
+    <div class="topbar-setion topbar-menu">
+      News
+    </div>
+    <div class="topbar-setion topbar-menu">
+      Sport
+    </div>
+    <div class="topbar-setion topbar-menu">
+      Weather
+    </div>
+    <div class="topbar-setion topbar-menu">
+      Shop
+    </div>
+    <div class="topbar-setion topbar-menu">
+      Earth
+    </div>
+    <div class="topbar-setion topbar-menu">
+       Travel
+    </div>
+    <div class="topbar-setion topbar-menu">
+       Capital
+    </div>
+    <div class="topbar-setion topbar-menu">
+        More
+        <img id="more-flecha" src="flecha.PNG">
+     </div>
+     <div class="topbar-setion">
+         <input type="text" id="search-box" placeholder="Search">
+     </div>
+    </div>
+    
+</body>
+</html>

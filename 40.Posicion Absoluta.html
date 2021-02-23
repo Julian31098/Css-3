@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Posicion absoluta</title>
+    <style type="text/css">
+         .rojo{
+           color: red;
+         }
+         .verde{
+           color:green;
+         }
+         .grande{
+            font-size: 200%;
+         }
+         #pequeño{
+             font-size: 60%;
+         }
+         .subrayado{
+             text-decoration: underline;/*subrayar el texto*/
+         }
+
+         #primera_seccion{
+             background-color:#f4eb86;
+             color: red;
+             width: 200px;
+             position:absolute;/*Declaramos 
+             la posicion absoluta respecto al contenedor que la contenga*/
+             left: 200px;
+             bottom: 100px;
+
+         }
+         #segunda_seccion{
+             background-color: #6DE961;
+             color:blue;
+             width: 300px;
+             
+
+         }
+
+    </style>
+</head>
+<body>
+    <div id="primera_seccion"><!--Div son divisores de cajas del documento -->
+    <h1 class="rojo grande">Css es genial!</h1>
+    <p class="rojo subrayado">Yo soy yo y mis circunstancias</p>
+    </div>
+
+
+    <div id="segunda_seccion">
+    <p>Esto es fant&aacute;stico!!!</p>
+    <p>Este texto es tiene <span id="pequeño">Fuente màs pequeña</span></p>
+    </div>
+</body>
+</html>
